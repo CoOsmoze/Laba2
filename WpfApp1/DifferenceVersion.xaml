@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApp1.DifferenceVersion"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Difference between local and actual versions" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+  <Grid>
+
+    <DataGrid x:Name="Before_Grid_Difference" Margin="0,0,413.6,10" HorizontalAlignment="Right" Width="380" Height="370" VerticalAlignment="Bottom" ColumnWidth="*"/>
+    <DataGrid x:Name="After_Grid_Difference" Margin="420,0,-0.4,10" Height="370" VerticalAlignment="Bottom" ColumnWidth="*"/>
+    <Label Content="Было" HorizontalAlignment="Left" Margin="137,10,0,0" VerticalAlignment="Top" Height="30" Width="83" FontSize="16"/>
+    <Label Content="Стало" HorizontalAlignment="Left" Margin="568,10,0,0" VerticalAlignment="Top" Height="30" Width="83" FontSize="16"/>
+
+  </Grid>
+</Window>

@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApp1.FullReadThreats"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="FullReadThreats" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid Margin="10" >
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="*"/>
+    </Grid.RowDefinitions>
+    <Label Grid.Row="0" Content="Просмотр всех сведений о каждой из угроз безопасности информации" HorizontalContentAlignment="Center"/>
+
+    <DataGrid x:Name="Grid_FullRead" Grid.Row= "1" ColumnWidth="*"/>
+  </Grid>
+</Window>
